@@ -1,5 +1,5 @@
 # Anime.txt
-A simple Anime Quiz Game that uses ASCII Art.
+A simple Anime Quiz Game that uses ASCII Art in C++.
 
 To start:
 
