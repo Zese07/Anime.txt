@@ -18,3 +18,7 @@ Notes:
 - Nicknames are included.
 
 - A clue is always given above the character.
+
+About:
+
+- This is my first C++ project after learning for a month.
