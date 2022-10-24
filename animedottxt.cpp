@@ -46,30 +46,15 @@ class gameTxt{
 		void txtStart(){
 			srand(time(0));
 
-            		int column = txtColumn();
-		    	int row = txtRow();
-		    	int rowadd = txtRowAdd();
+            		int column = 0;
+		    	int row = rand()%10;
+		    	int rowadd = rand()%5 * 2;
 
 			switch(column){
                 		case 0: txt0(row, rowadd); break;
                 		default: cout << "Error."; break;
 
 			}
-		}
-		int txtColumn(){
-			int column = 0;
-			return column;
-
-		}
-		int txtRow(){
-			int row = rand()%10;
-			return row;
-
-		}
-		int txtRowAdd(){
-			int rowadd = rand()%5;
-			rowadd = rowadd * 2;
-			return rowadd;
 
 		}
 		void txtWho(){
@@ -113,9 +98,9 @@ class gameTxt{
 				case 17: clue = 'H'; break;
 				case 20: clue = 'S'; break;
 				default:
-                    cout << "Error: " << row << endl;
-                    txtWrong();
-                    break;
+                    			cout << "Error: " << row << endl;
+                    			txtWrong();
+                    			break;
 
 			}
 			cout << "Character: " << clue << endl;
