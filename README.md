@@ -1,19 +1,19 @@
 # Anime.txt
 A simple Anime Quiz Text Game that uses ASCII Art in C++.
 
-# To start:
+## To start:
 
 - Run animedottxt.cpp file.
 
-- [A] To start the game.
+- ```A``` To start the game.
 
-- [E] To exit the game.
+- ```E``` To exit the game.
 
-# To play:
+## To play:
 
-- Guess the first name of the anime character.
+- Guess the first name of the anime character shown in the terminal.
 
-# Notes:
+## Notes:
 
 - Names should start with capital letter.
 
@@ -21,6 +21,6 @@ A simple Anime Quiz Text Game that uses ASCII Art in C++.
 
 - A clue is always given above the character.
 
-# About:
+## About:
 
 - This is my first C++ project after learning for a month.
